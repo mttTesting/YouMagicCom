@@ -2,7 +2,7 @@ package com.registration.tests;
 
 import org.testng.annotations.DataProvider;
 
-public class StaticProviderEx {
+public class StaticProviderRegistration {
 
 	@DataProvider(name = "create", parallel = true)
 	  public static Object[][] createData() {

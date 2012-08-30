@@ -3,9 +3,9 @@ package com.registration.tests.Working;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
-import com.registration.tests.TestBase;
+import com.registration.tests.TestBaseRegistration;
 
-public class VoicemailTest_rus extends TestBase{
+public class VoicemailTest_rus extends TestBaseRegistration{
 	 @Test
 	 public void voicemailTest_eng() throws Exception {
 		 selenium.open("http://80.75.132.248/ru/component/portabillinguser/login?return");

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40483" started-at="2012-08-30T09:22:24Z" finished-at="2012-08-30T09:23:05Z">
+  <suite name="Default suite" duration-ms="42245" started-at="2012-08-30T10:47:45Z" finished-at="2012-08-30T10:48:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40483" started-at="2012-08-30T09:22:24Z" finished-at="2012-08-30T09:23:05Z">
+    <test name="Default test" duration-ms="42245" started-at="2012-08-30T10:47:45Z" finished-at="2012-08-30T10:48:27Z">
       <class name="com.registration.tests.notWorking.CallForwardingTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@660962c7]" name="setUp" is-config="true" duration-ms="23039" started-at="2012-08-30T13:22:24Z" finished-at="2012-08-30T13:22:48Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@3efd065d]" name="setUp" is-config="true" duration-ms="24291" started-at="2012-08-30T14:47:45Z" finished-at="2012-08-30T14:48:09Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,11 +16,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="callForwardingTest()[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@660962c7]" name="callForwardingTest" duration-ms="9645" started-at="2012-08-30T13:22:48Z" finished-at="2012-08-30T13:22:57Z">
+        <test-method status="PASS" signature="callForwardingTest()[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@3efd065d]" name="callForwardingTest" duration-ms="10626" started-at="2012-08-30T14:48:09Z" finished-at="2012-08-30T14:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- callForwardingTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@660962c7]" name="tearDown" is-config="true" duration-ms="7788" started-at="2012-08-30T13:22:57Z" finished-at="2012-08-30T13:23:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.registration.tests.notWorking.CallForwardingTest@3efd065d]" name="tearDown" is-config="true" duration-ms="7319" started-at="2012-08-30T14:48:20Z" finished-at="2012-08-30T14:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

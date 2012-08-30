@@ -1,6 +1,5 @@
 package com.tariffs.tests;
-import org.testng.Assert;
-import org.testng.AssertJUnit;
+import org.testng.*; 
 import org.testng.annotations.Test;
 
 public class RegistrationOfTariffs extends TestBaseTariffs {
@@ -11,7 +10,7 @@ public class RegistrationOfTariffs extends TestBaseTariffs {
 
 			//Вход. Переход на стр. тарифы. Тарифы на обслуживание.
 			selenium.open("http://80.75.132.248");	
-/*Screenshot*/if (browser == "*chrome")
+/*Screenshot*/if (browser == "*firefox")
 			selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "test.png", "");
 
 			selenium.click("css=li.parent.item24 > a > span"); //Клик по "Тарифы"
@@ -21,14 +20,14 @@ public class RegistrationOfTariffs extends TestBaseTariffs {
 				try { if (selenium.isTextPresent("Тарифы на обслуживание")) break; } catch (Exception e) {}
 				Thread.sleep(1000);
 			} 
-/*Screenshot*/if (browser == "*chrome")
+/*Screenshot*/if (browser == "*firefox")
 			selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "test.png", "");
 
 			AssertJUnit.assertEquals(selenium.getTitle(), "Тарифы");
 			selenium.click("//div[@id='ja-account-info']/div/div/div/a/div"); //Клик по "Тарифы на обслуживание"
 			selenium.waitForPageToLoad("30000");
 			
-/*Screenshot*/if (browser == "*chrome")
+/*Screenshot*/if (browser == "*firefox")
 			selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "screen.png", "");
 			AssertJUnit.assertTrue(selenium.isTextPresent("Главная > Тарифы > Тарифы на обслуживание"));
 			AssertJUnit.assertTrue(selenium.isTextPresent("Тарифы для городских номеров"));
@@ -51,7 +50,7 @@ public class RegistrationOfTariffs extends TestBaseTariffs {
 				try { if (selenium.isElementPresent(link)) break; } catch (Exception e) {}
 				Thread.sleep(1000);
 			}
-/*Screenshot*/if (browser == "*chrome")
+/*Screenshot*/if (browser == "*firefox")
 			selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "test.png", "");
 
 			AssertJUnit.assertEquals(selenium.getText("css=td.rate"), tname);
@@ -64,7 +63,7 @@ public class RegistrationOfTariffs extends TestBaseTariffs {
 				Thread.sleep(1000);
 			}
 
-/*Screenshot*/if (browser == "*chrome")
+/*Screenshot*/if (browser == "*firefox")
 			selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "test.png", "");
 			AssertJUnit.assertTrue(selenium.isTextPresent("Главная > Регистрация с городским номером"));
 			AssertJUnit.assertTrue(selenium.isTextPresent(pref));

@@ -3,9 +3,9 @@ package com.registration.tests.Working;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
-import com.registration.tests.TestBase;
+import com.registration.tests.TestBaseRegistration;
 
-public class AuthorizationInternationalTest_eng  extends TestBase{
+public class AuthorizationInternationalTest_eng  extends TestBaseRegistration{
 	 @Test
 	 public void authorizationCityNumberTest_eng() throws Exception {
 		 selenium.open("http://80.75.132.248/en/component/portabillinguser/login?return");

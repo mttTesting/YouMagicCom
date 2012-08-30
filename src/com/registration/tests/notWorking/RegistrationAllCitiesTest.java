@@ -3,9 +3,9 @@ package com.registration.tests.notWorking;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
-import com.registration.tests.TestBase;
+import com.registration.tests.TestBaseRegistration;
 
-public class RegistrationAllCitiesTest extends TestBase{
+public class RegistrationAllCitiesTest extends TestBaseRegistration{
 	@Test
 	public void registrationAllCitiesTest() throws Exception {
 		 selenium.open("http://80.75.132.248/");

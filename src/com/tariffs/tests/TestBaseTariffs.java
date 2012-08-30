@@ -14,12 +14,12 @@ public class TestBaseTariffs {
 	protected String Path = System.getProperty("user.dir");
 	protected String screenPath = (Path + "\\log\\screenshots\\");
 	protected static int screenCounter = 1;
-	protected static final String browser = null;
+	protected static final String browser = "*firefox";
 
 	@Parameters({"browser"})
 	@BeforeMethod
 	public void setUp(@Optional String browser) throws Exception {
-		if (browser == null) browser = "*googlechrome";
+		if (browser == null) browser = "*firefox";
 		selenium = (LoggingDefaultSelenium) SeleniumHelper.getSelenium(this.getClass().getSimpleName(),
 				"localhost", 4444, browser, "http://80.75.132.248/ru");				
 	}
