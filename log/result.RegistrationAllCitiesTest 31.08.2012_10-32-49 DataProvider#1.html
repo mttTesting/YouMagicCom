@@ -1,0 +1,126 @@
+<html>
+<head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><meta content="cache-control" http-equiv="no-cache"><meta content="pragma" http-equiv="no-cache"><style type="text/css">
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.status_maybefailed {
+    background-color: #ffffcc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style>
+<title>Test results</title></head>
+<body>
+ <span style="font-size:9px;font-family:arial,verdana,sans-serif;">HTML Logging of Junit driven Selenium-RC Tests. Contributed by Robert Zimmermann (unitedinternet.com)</span><h1>Test results </h1>
+<table>
+<tr><td>user-agent:</td><td>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:14.0) Gecko/20100101 Firefox/14.0.1</td></tr>
+<tr><td>selenium-rc:</td><td> vUNKNOWN [UNKNOWN]</td></tr>
+<tr><td>selenium-core:</td><td> vUNKNOWN [UNKNOWN]</td></tr>
+<tr><td>LoggingSelenium:</td><td> revision [96]</td></tr>
+<tr><td>test-started:</td><td>10:32:55 31-08-2012</td></tr>
+<tr><td>test-finished:</td><td>10:33:16 31-08-2012</td></tr>
+<tr><td>test-duration [ms]:</td><td>20 704</td></tr>
+<tr><td>commands processed:</td><td>54</td></tr>
+<tr><td>verifications processed:</td><td>1</td></tr>
+
+<tr><td>commands not logged:</td><td>{getHtmlSource}</td></tr>
+</table>
+<table border="1"><tbody><tr><td><b>Selenium-Command</b></td><td><b>Parameter-1</b></td><td><b>Parameter-2</b></td><td><b>Res.RC</b></td><td><b>Res.Selenium</b></td><td><b>Time [ms]</b></td><td><b>Calling-Class with Linenumber</b></td></tr>
+<tr class="title"><td colspan="7">executing createNewLoggingSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>windowFocus</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.test.factory.SeleniumHelper#72</td></tr>
+<tr class="status_done" title="" alt=""><td>windowMaximize</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">47</td><td>com.test.factory.SeleniumHelper#73</td></tr>
+<tr class="title"><td colspan="7">executing getSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_passed" title="" alt=""><td>getLocation</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>http://localhost:4444/selenium-server/core/Blank.html?start=true</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">31</td><td>com.test.factory.SeleniumHelper#33</td></tr>
+<tr class="title"><td colspan="7">executing registrationAllCitiesTest()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>open</td><td>http://80.75.132.248/</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">1753</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#11</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>30000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">15</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#12</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>css=#menu3 &gt; span.menu-title</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">66</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#17</td></tr>
+<tr class="status_done" title="" alt=""><td>waitForPageToLoad</td><td>30000</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">11794</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#18</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>xpath=(//a[contains(@href, '/')])[34]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">129</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#19</td></tr>
+<tr class="status_passed" title="" alt=""><td>isTextPresent</td><td>(499)</td><td>&nbsp;</td><td>OK</td><td>true</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">53</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#22</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">40</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#23</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[2]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">69</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#24</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">687</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#26</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[3]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">29</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#27</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">18</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#28</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#30</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[4]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">32</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#31</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">18</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#32</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">8</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#34</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[5]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">11</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#35</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#36</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">7</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#38</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[6]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">23</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#39</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">16</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#41</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[7]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">19</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#42</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">15</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#44</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[8]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">20</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#45</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>css=label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">18</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#46</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">12</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#48</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[2]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">32</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#49</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">8</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#50</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">20</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#51</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">13</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#53</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[3]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">235</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#54</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">20</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#56</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">21</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#57</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[4]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">10</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#58</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">10</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#60</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[5]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">19</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#61</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">16</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#62</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">11</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#64</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[6]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">22</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#65</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectcountry</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">12</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#67</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='country_sel']/ul/li[7]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">13</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#68</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">8</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#70</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[2]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">11</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#71</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#73</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>css=//div[@id='area_code_sel']/ul/li[3]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#74</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#75</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">7</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#77</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[4]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">9</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#78</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='bPhones']/table/tbody/tr/td/div[5]/span[2]/label</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">14</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#79</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>id=selectareacode</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">9</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#81</td></tr>
+<tr class="status_done" title="" alt=""><td>click</td><td>//div[@id='area_code_sel']/ul/li[5]</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">9</td><td>com.registration.tests.notWorking.RegistrationAllCitiesTest#82</td></tr>
+<tr class="title"><td colspan="7">executing dismissSelenium()<span style="font-size:9px;font-family:arial,verdana,sans-serif;"></span></td></tr>
+<tr class="status_done" title="" alt=""><td>close</td><td>&nbsp;</td><td>&nbsp;</td><td>OK</td><td>OK</td><td title="time delta reporting is alpha and subject to change" alt="time delta reporting is alpha and subject to change">81</td><td>com.test.factory.SeleniumHelper#82</td></tr>
+</tbody></table></body></html>
