@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37986" started-at="2012-08-31T11:32:46Z" finished-at="2012-08-31T11:33:24Z">
+  <suite name="Default suite" duration-ms="59020" started-at="2012-09-04T12:09:53Z" finished-at="2012-09-04T12:10:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37986" started-at="2012-08-31T11:32:46Z" finished-at="2012-08-31T11:33:24Z">
-      <class name="com.registration.tests.notWorking.RegistrationFromTarifsTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.registration.tests.notWorking.RegistrationFromTarifsTest@5abce07]" name="setUp" is-config="true" duration-ms="5177" started-at="2012-08-31T15:32:46Z" finished-at="2012-08-31T15:32:51Z">
+    <test name="Default test" duration-ms="59020" started-at="2012-09-04T12:09:53Z" finished-at="2012-09-04T12:10:52Z">
+      <class name="com.registration.tests.notWorking.RegistrationAllCitiesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.registration.tests.notWorking.RegistrationAllCitiesTest@2bb8ee96]" name="setUp" is-config="true" duration-ms="26445" started-at="2012-09-04T16:09:53Z" finished-at="2012-09-04T16:10:19Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,14 +16,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="registrationFromTarifsTest()[pri:0, instance:com.registration.tests.notWorking.RegistrationFromTarifsTest@5abce07]" name="registrationFromTarifsTest" duration-ms="32363" started-at="2012-08-31T15:32:51Z" finished-at="2012-08-31T15:33:24Z">
+        <test-method status="FAIL" signature="registrationAllCitiesTest()[pri:0, instance:com.registration.tests.notWorking.RegistrationAllCitiesTest@2bb8ee96]" name="registrationAllCitiesTest" duration-ms="25549" started-at="2012-09-04T16:10:19Z" finished-at="2012-09-04T16:10:45Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
 	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
 	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
-	at com.registration.tests.notWorking.RegistrationFromTarifsTest.registrationFromTarifsTest(RegistrationFromTarifsTest.java:34)
+	at com.registration.tests.notWorking.RegistrationAllCitiesTest.registrationAllCitiesTest(RegistrationAllCitiesTest.java:28)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,12 +53,12 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationFromTarifsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.registration.tests.notWorking.RegistrationFromTarifsTest@5abce07]" name="tearDown" is-config="true" duration-ms="434" started-at="2012-08-31T15:33:24Z" finished-at="2012-08-31T15:33:24Z">
+        </test-method> <!-- registrationAllCitiesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.registration.tests.notWorking.RegistrationAllCitiesTest@2bb8ee96]" name="tearDown" is-config="true" duration-ms="7015" started-at="2012-09-04T16:10:45Z" finished-at="2012-09-04T16:10:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.registration.tests.notWorking.RegistrationFromTarifsTest -->
+      </class> <!-- com.registration.tests.notWorking.RegistrationAllCitiesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

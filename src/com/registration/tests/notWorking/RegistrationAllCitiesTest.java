@@ -14,13 +14,14 @@ public class RegistrationAllCitiesTest extends TestBaseRegistration{
 		 //if (browser == "*firefox")
 		 //selenium.captureEntirePageScreenshot(screenPath +(screenCounter++) + " " + "test.png", "");
 		 
-		    selenium.click("css=#menu3 > span.menu-title");//кнопка "Регистрация"
+			 selenium.open("http://80.75.132.248/ru/registration");
 			selenium.waitForPageToLoad("30000");
 			selenium.click("xpath=(//a[contains(@href, '/')])[34]");
 			Thread.sleep(5000);
 			//selenium.click("css=span.bHeader_Text > a");//переход на вкладку "Городской номер"
 			AssertJUnit.assertTrue(selenium.isTextPresent("(499)"));
-			
+			Thread.sleep(5000);
+
 			selenium.click("id=selectareacode");//выбор города из выпадающего списка
 			selenium.click("//div[@id='area_code_sel']/ul/li[2]");
 			Thread.sleep(5000);

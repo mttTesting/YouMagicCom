@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.registration.tests.notWorking.RegistrationFromTarifsTest">
+      <class name="com.registration.tests.notWorking.RegistrationAllCitiesTest">
         <methods>
-          <include name="registrationFromTarifsTest"/>
           <include name="tearDown"/>
+          <include name="registrationAllCitiesTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.registration.tests.notWorking.RegistrationFromTarifsTest -->
+      </class> <!-- com.registration.tests.notWorking.RegistrationAllCitiesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
